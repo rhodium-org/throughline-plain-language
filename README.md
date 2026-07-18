@@ -42,25 +42,30 @@ principle. The published spec is generated from the graph at
 [`docs/spec.md`](docs/spec.md).
 
 - `INT-0001` — the root intent (why plain language exists), `normative: false`.
-- Principles `UR-0001`…`UR-0008` — the eight PLAIN themes.
-- Rules `SR-0001`…`SR-0030` — the concrete instructions, each carrying its PLAIN
-  section in `attrs.source_ref` and its owning principle in `attrs.principle`.
+- Principles `UR-0001`…`UR-0008` — eight readability themes.
+- Rules `SR-0001`…`SR-0030` — the concrete instructions, each carrying the ISO
+  24495-1:2023 governing principle it elaborates in `attrs.source_ref` and its owning
+  principle in `attrs.principle`.
 
 The counts above are rendered from the live graph by the `tl:count` directive, so they
 cannot drift.
 
 ## Source & licensing
 
-The content is a faithful re-expression of the **U.S. Federal Plain Language
-Guidelines** (plainlanguage.gov, PLAIN, March 2011 rev.1), which are a work of the
-U.S. federal government and in the **public domain** — so this source composes freely
-with no attribution constraint on downstream use. See [`NOTICE`](NOTICE).
+The rules are Time Back Solutions' own, licensed under Apache-2.0. They are informed
+by the **international consensus on plain language** — principally **ISO 24495-1:2023**
+(*Plain language, Part 1: Governing principles and guidelines*: Relevant, Findable,
+Understandable, Usable) and the **International Plain Language Federation**'s
+definition. Those standards are referenced, not reproduced — each item's
+`attrs.source_ref` names the governing principle it elaborates, and no ISO text is
+copied. Nothing here is US-specific. See [`NOTICE`](NOTICE).
 
 ## Extending the source
 
-Re-run [`tools/generate_plain_language.py`](tools/generate_plain_language.py) after
-editing the curated table in that file; it assigns UIDs positionally, so existing
-UIDs stay stable as long as you append rather than reorder. Then:
+Items are hand-authored static YAML — one file per item, one permanent UID per file.
+To add a rule, create the next `SR-00NN.yml` by hand (never renumber an existing one),
+link it with `implements` to its principle, and record the ISO principle it elaborates
+in `attrs.source_ref`. Then:
 
 ```sh
 tl check --strict      # the graph must stay sound

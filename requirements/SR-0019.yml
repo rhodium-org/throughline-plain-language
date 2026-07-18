@@ -7,5 +7,5 @@ links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: 'PLAIN V.c'
+  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
   principle: UR-0005

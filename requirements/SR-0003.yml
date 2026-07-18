@@ -7,5 +7,5 @@ links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: 'PLAIN III — Pronouns'
+  source_ref: 'ISO 24495-1:2023 — Principle 1 (Relevant)'
   principle: UR-0001

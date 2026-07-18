@@ -5,8 +5,8 @@ format_version = 2
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `plain`) and referencing
 # principles as `plain:UR-0003` or rules as `plain:SR-0007`. The UIDs here are this
-# source's own and immutable; the published guideline reference (e.g. the PLAIN
-# section) lives in `attrs.source_ref`, never in the UID.
+# source's own and immutable; the governing-principle reference (e.g. the ISO
+# 24495-1:2023 principle) lives in `attrs.source_ref`, never in the UID.
 #
 # This is an ORTHOGONAL content axis — the *readability / plain-language* dimension
 # only. It deliberately says nothing about spelling variant, punctuation, tone,
@@ -15,10 +15,12 @@ format_version = 2
 # tone-formal). Keeping the axes separate is the whole point: mixing them here would
 # make the source un-composable.
 #
-# Content is a faithful re-expression of the U.S. Federal Plain Language Guidelines
-# (plainlanguage.gov, PLAIN, March 2011 rev.1), which are a work of the U.S. federal
-# government and in the public domain. Each principle is a `user_requirement`; each
-# concrete rule is a `system_requirement` that `implements` its principle.
+# The rules are Time Back Solutions' own, informed by the international consensus on
+# plain language — principally ISO 24495-1:2023 (Relevant, Findable, Understandable,
+# Usable) and the International Plain Language Federation's definition. Those standards
+# are referenced (via attrs.source_ref), not reproduced; nothing here is US-specific.
+# Each principle is a `user_requirement`; each concrete rule is a `system_requirement`
+# that `implements` its principle.
 
 [grounding]
 root_types = ["intent"]

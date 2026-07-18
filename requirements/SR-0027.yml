@@ -7,5 +7,5 @@ links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: 'PLAIN VII.c'
+  source_ref: 'ISO 24495-1:2023 — Principle 2 (Findable)'
   principle: UR-0007

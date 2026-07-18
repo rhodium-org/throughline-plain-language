@@ -10,7 +10,7 @@ medium or brand voice — each of those is its own throughline source, so a cons
 composes exactly the axes a task needs. Every principle is a `user_requirement`;
 every rule is a `system_requirement` that `implements` its principle. The throughline
 UIDs are this source's own and immutable — a consumer cites a rule as `plain:SR-0007`,
-never by its PLAIN section number, which lives in `attrs.source_ref`.
+never by the ISO 24495-1:2023 principle, which lives in `attrs.source_ref`.
 
 It carries
 <!-- tl:count type == 'user_requirement' -->
@@ -27,7 +27,7 @@ It carries
 
 > Plain language exists so that the intended reader can find what they need, understand it, and act on it the first time they read it — whatever their expertise. Writing that fails this test raises error rates, support costs and exclusion; writing that meets it is faster and fairer for everyone. This axis governs readability alone, not spelling, tone or medium.
 
-**source_ref**: PLAIN — Federal Plain Language Guidelines (2011)
+**source_ref**: ISO 24495-1:2023 — Plain language, Part 1: Governing principles and guidelines
 <!-- tl:end -->
 
 ## 1. Write for your reader
@@ -39,7 +39,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN I — Think about your audience
+**source_ref**: ISO 24495-1:2023 — Principle 1 (Relevant)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0001' -->
@@ -59,7 +59,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN II — Organize
+**source_ref**: ISO 24495-1:2023 — Principle 2 (Findable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0002' -->
@@ -79,7 +79,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN III — Word choice
+**source_ref**: ISO 24495-1:2023 — Principle 3 (Understandable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0003' -->
@@ -101,7 +101,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN IV — Verbs
+**source_ref**: ISO 24495-1:2023 — Principle 3 (Understandable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0004' -->
@@ -123,7 +123,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN V — Sentences and paragraphs
+**source_ref**: ISO 24495-1:2023 — Principle 3 (Understandable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0005' -->
@@ -144,7 +144,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN VI — Conciseness
+**source_ref**: ISO 24495-1:2023 — Principle 3 (Understandable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0006' -->
@@ -165,7 +165,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN VII — Design and readability
+**source_ref**: ISO 24495-1:2023 — Principle 2 (Findable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0007' -->
@@ -186,7 +186,7 @@ It carries
 
 *Derives from:* INT-0001
 
-**source_ref**: PLAIN VIII — Test
+**source_ref**: ISO 24495-1:2023 — Principle 4 (Usable)
 <!-- tl:end -->
 
 <!-- tl:table attrs.get('principle') == 'UR-0008' -->

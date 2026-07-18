@@ -1,0 +1,11 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: 'Use short line lengths and generous whitespace so text can be scanned'
+text: 'Use short line lengths and generous whitespace so text can be scanned.'
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: 'PLAIN VII.d'
+  principle: UR-0007

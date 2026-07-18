@@ -1,0 +1,17 @@
+throughline-plain-language
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the U.S. Federal Plain Language Guidelines as a grounded IDD graph so
+consuming projects can compose it with throughline-compose.
+
+The Federal Plain Language Guidelines (PLAIN, March 2011 rev.1) are a work of the
+U.S. federal government and are in the public domain. The guidance reproduced here in
+items' text and attrs.source_ref is derived from that source; this repository claims
+no ownership over that underlying content. See https://www.plainlanguage.gov for the
+authoritative source.

@@ -1,0 +1,11 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: 'State the reader''s task and the single action you want them to take'
+text: 'State the reader''s task and the single action you want them to take.'
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: 'PLAIN I.b'
+  principle: UR-0001

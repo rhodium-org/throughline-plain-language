@@ -1,0 +1,10 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: 'Organise so the reader finds what matters first'
+text: 'Structure the content around the reader''s needs, leading with what matters most.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN II — Organize'

@@ -1,0 +1,11 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: 'Write in the active voice unless the actor is unknown or irrelevant'
+text: 'Write in the active voice unless the actor is unknown or irrelevant.'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'PLAIN IV.a'
+  principle: UR-0004

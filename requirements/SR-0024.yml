@@ -1,0 +1,11 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: 'Replace a wordy phrase with one word'
+text: 'Replace a wordy phrase with one word — "because", not "due to the fact that".'
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: 'PLAIN VI.d'
+  principle: UR-0006

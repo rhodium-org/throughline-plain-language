@@ -1,0 +1,8 @@
+uid: INT-0001
+type: intent
+status: approved
+title: 'A reader understands the content correctly on first reading'
+text: 'Plain language exists so that the intended reader can find what they need, understand it, and act on it the first time they read it — whatever their expertise. Writing that fails this test raises error rates, support costs and exclusion; writing that meets it is faster and fairer for everyone. This axis governs readability alone, not spelling, tone or medium.'
+normative: false
+attrs:
+  source_ref: 'PLAIN — Federal Plain Language Guidelines (2011)'

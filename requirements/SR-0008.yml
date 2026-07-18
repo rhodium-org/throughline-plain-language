@@ -1,0 +1,11 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: 'Define any unavoidable technical term at its first use'
+text: 'Define any unavoidable technical term at its first use.'
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: 'PLAIN III.b'
+  principle: UR-0003

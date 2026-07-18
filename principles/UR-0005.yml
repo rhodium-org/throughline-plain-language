@@ -1,0 +1,10 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: 'Keep sentences and paragraphs short'
+text: 'Carry one idea at a time so the reader never has to re-read.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN V — Sentences and paragraphs'

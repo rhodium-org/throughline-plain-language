@@ -1,0 +1,11 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: 'Use a table to present conditional or comparative information'
+text: 'Use a table to present conditional or comparative information.'
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: 'PLAIN VII.c'
+  principle: UR-0007

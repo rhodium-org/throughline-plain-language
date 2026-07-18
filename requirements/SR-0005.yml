@@ -1,0 +1,11 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: 'Group related material under informative, task-based headings'
+text: 'Group related material under informative, task-based headings.'
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: 'PLAIN II.b'
+  principle: UR-0002

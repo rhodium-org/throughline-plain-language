@@ -1,0 +1,11 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: 'Use "must" to state an obligation'
+text: 'Use "must" to state an obligation; avoid "shall".'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'PLAIN IV.d'
+  principle: UR-0004

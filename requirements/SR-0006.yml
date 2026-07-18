@@ -1,0 +1,11 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: 'Present information in the order the reader will need it, answering likely qu...'
+text: 'Present information in the order the reader will need it, answering likely questions in turn.'
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: 'PLAIN II.c'
+  principle: UR-0002

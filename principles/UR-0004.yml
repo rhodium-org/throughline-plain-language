@@ -1,0 +1,10 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: 'Prefer active voice and strong verbs'
+text: 'Put the actor first and let precise verbs carry the sentence.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN IV — Verbs'

@@ -1,0 +1,10 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: 'Test that real readers understand'
+text: 'Treat comprehension as measurable and verify it.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN VIII — Test'

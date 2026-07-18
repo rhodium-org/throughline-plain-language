@@ -1,0 +1,11 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: 'Use the strongest, most precise verb available'
+text: 'Use the strongest, most precise verb available.'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'PLAIN IV.b'
+  principle: UR-0004

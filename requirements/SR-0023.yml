@@ -1,0 +1,11 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: 'Cut intensifiers that add no information, such as "very" and "really"'
+text: 'Cut intensifiers that add no information, such as "very" and "really".'
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: 'PLAIN VI.c'
+  principle: UR-0006

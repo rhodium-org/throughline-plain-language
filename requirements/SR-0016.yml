@@ -1,0 +1,11 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: 'Use the present tense wherever the meaning allows'
+text: 'Use the present tense wherever the meaning allows.'
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 'PLAIN IV.e'
+  principle: UR-0004

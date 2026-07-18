@@ -1,0 +1,11 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: 'Break content with headings and subheadings that describe what follows'
+text: 'Break content with headings and subheadings that describe what follows.'
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: 'PLAIN VII.a'
+  principle: UR-0007

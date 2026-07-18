@@ -1,0 +1,11 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: 'Lead with the most important information, then the detail (the inverted pyramid)'
+text: 'Lead with the most important information, then the detail (the inverted pyramid).'
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: 'PLAIN II.a'
+  principle: UR-0002

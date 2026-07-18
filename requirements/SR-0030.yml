@@ -1,0 +1,11 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: 'Test drafts with people from the target audience and revise on what confuses...'
+text: 'Test drafts with people from the target audience and revise on what confuses them.'
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: 'PLAIN VIII.b'
+  principle: UR-0008

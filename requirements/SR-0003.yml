@@ -1,0 +1,11 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: 'Address the reader directly as "you"'
+text: 'Address the reader directly as "you"; refer to your organisation as "we".'
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: 'PLAIN III — Pronouns'
+  principle: UR-0001

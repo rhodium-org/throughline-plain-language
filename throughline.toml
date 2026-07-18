@@ -1,0 +1,60 @@
+[project]
+name = "Plain Language (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `plain`) and referencing
+# principles as `plain:UR-0003` or rules as `plain:SR-0007`. The UIDs here are this
+# source's own and immutable; the published guideline reference (e.g. the PLAIN
+# section) lives in `attrs.source_ref`, never in the UID.
+#
+# This is an ORTHOGONAL content axis — the *readability / plain-language* dimension
+# only. It deliberately says nothing about spelling variant, punctuation, tone,
+# genre, medium or brand voice; each of those is its own throughline source so a
+# consumer can compose exactly the axes a task needs (e.g. plain + mechanics-uk +
+# tone-formal). Keeping the axes separate is the whole point: mixing them here would
+# make the source un-composable.
+#
+# Content is a faithful re-expression of the U.S. Federal Plain Language Guidelines
+# (plainlanguage.gov, PLAIN, March 2011 rev.1), which are a work of the U.S. federal
+# government and in the public domain. Each principle is a `user_requirement`; each
+# concrete rule is a `system_requirement` that `implements` its principle.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+[types.user_requirement]
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/spec.md + README.md from the graph; `tl docs --check`
+# gates them so the published counts and tables can never drift.
+[docs]
+paths = ["docs/*.md", "README.md"]

@@ -1,0 +1,11 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: 'Keep each paragraph to a single topic, opened by a topic sentence'
+text: 'Keep each paragraph to a single topic, opened by a topic sentence.'
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: 'PLAIN V.d'
+  principle: UR-0005

@@ -1,0 +1,10 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: 'Choose familiar, concrete words'
+text: 'Prefer the plainest word that carries the meaning, and keep terms consistent.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN III — Word choice'

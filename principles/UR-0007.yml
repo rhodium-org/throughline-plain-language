@@ -1,0 +1,10 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: 'Design pages so they can be scanned'
+text: 'Lay out content so a reader can skim to the part they need.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: 'PLAIN VII — Design and readability'

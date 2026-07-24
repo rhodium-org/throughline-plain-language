@@ -1,6 +1,6 @@
 [project]
 name = "Plain Language (throughline source)"
-format_version = 2
+format_version = 3
 
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `plain`) and referencing
@@ -60,3 +60,14 @@ rejected    = ["draft", "deleted"]
 # gates them so the published counts and tables can never drift.
 [docs]
 paths = ["docs/*.md", "README.md"]
+
+# Semantic status roles (SR-0131): which declared status
+# plays each role the tool's operations act on. Backfilled by
+# `tl migrate`; edit to match your own status vocabulary.
+[status.roles]
+initial = "draft"
+proposed = "proposed"
+ratified = "ratified"
+invalidated = "rejected"
+suspect = "suspect"
+tombstone = "deleted"

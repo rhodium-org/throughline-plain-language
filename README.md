@@ -52,7 +52,7 @@ cannot drift.
 
 ## Source & licensing
 
-The rules are Time Back Solutions' own, licensed under Apache-2.0. They are informed
+The rules are original guidance, licensed under Apache-2.0. They are informed
 by the **international consensus on plain language** — principally **ISO 24495-1:2023**
 (*Plain language, Part 1: Governing principles and guidelines*: Relevant, Findable,
 Understandable, Usable) and the **International Plain Language Federation**'s

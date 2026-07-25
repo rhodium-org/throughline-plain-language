@@ -15,7 +15,7 @@ format_version = 3
 # tone-formal). Keeping the axes separate is the whole point: mixing them here would
 # make the source un-composable.
 #
-# The rules are Time Back Solutions' own, informed by the international consensus on
+# The rules are original guidance, informed by the international consensus on
 # plain language — principally ISO 24495-1:2023 (Relevant, Findable, Understandable,
 # Usable) and the International Plain Language Federation's definition. Those standards
 # are referenced (via attrs.source_ref), not reproduced; nothing here is US-specific.

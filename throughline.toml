@@ -46,9 +46,9 @@ values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented"
           "verified", "suspect", "rejected", "deleted"]
 
 [transitions]
-proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
-draft       = ["approved", "deferred", "rejected", "deleted"]
-deferred    = ["draft", "approved", "rejected", "deleted"]
+proposed    = ["draft", "approved", "ratified", "deferred", "suspect", "rejected", "deleted"]
+draft       = ["approved", "deferred", "suspect", "rejected", "deleted"]
+deferred    = ["draft", "approved", "suspect", "rejected", "deleted"]
 approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
 ratified    = ["implemented", "suspect", "rejected", "deleted"]
 implemented = ["verified", "suspect", "rejected", "deleted"]

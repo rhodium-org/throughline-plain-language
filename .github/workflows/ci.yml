@@ -4,6 +4,14 @@ on:
   push:
     branches: [main]
   pull_request:
+  # The tool moves under this graph, not with it. Nothing here installs a
+  # pinned throughline on purpose — consumers compose this at whatever version
+  # they run, so the gate should be the current one — but that only says
+  # something if it runs. Without this, a graph nobody touches is never
+  # re-checked, and a rule added upstream goes unnoticed until somebody else
+  # trips over it.
+  schedule:
+    - cron: "0 6 * * 1"
 
 jobs:
   gate:

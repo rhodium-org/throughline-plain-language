@@ -45,7 +45,7 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0001' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0001 | system_requirement | approved | Identify the primary audience and their reading context before you start draf... |
+| SR-0001 | system_requirement | approved | Identify the primary audience and their reading context before you start drafting |
 | SR-0002 | system_requirement | approved | State the reader's task and the single action you want them to take |
 | SR-0003 | system_requirement | approved | Address the reader directly as "you" |
 <!-- tl:end -->
@@ -67,7 +67,7 @@ It carries
 |---|---|---|---|
 | SR-0004 | system_requirement | approved | Lead with the most important information, then the detail (the inverted pyramid) |
 | SR-0005 | system_requirement | approved | Group related material under informative, task-based headings |
-| SR-0006 | system_requirement | approved | Present information in the order the reader will need it, answering likely qu... |
+| SR-0006 | system_requirement | approved | Present information in the order the reader will need it, answering likely questions in turn |
 <!-- tl:end -->
 
 ## 3. Choose familiar, concrete words
@@ -192,6 +192,6 @@ It carries
 <!-- tl:table attrs.get('principle') == 'UR-0008' -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0029 | system_requirement | approved | Set a readability target appropriate to the audience and check the draft agai... |
-| SR-0030 | system_requirement | approved | Test drafts with people from the target audience and revise on what confuses... |
+| SR-0029 | system_requirement | approved | Set a readability target appropriate to the audience and check the draft against it |
+| SR-0030 | system_requirement | approved | Test drafts with people from the target audience and revise on what confuses them |
 <!-- tl:end -->

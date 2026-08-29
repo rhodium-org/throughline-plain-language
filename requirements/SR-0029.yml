@@ -1,7 +1,7 @@
 uid: SR-0029
 type: system_requirement
 status: approved
-title: 'Set a readability target appropriate to the audience and check the draft agai...'
+title: 'Set a readability target appropriate to the audience and check the draft against it'
 text: 'Set a readability target appropriate to the audience and check the draft against it.'
 links:
 - target: UR-0008

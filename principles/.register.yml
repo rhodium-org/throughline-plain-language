@@ -1,3 +1,4 @@
 prefix: UR
 digits: 4
 title: Plain-language principles
+type: user_requirement

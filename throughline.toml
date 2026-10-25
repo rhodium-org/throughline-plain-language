@@ -1,6 +1,6 @@
 [project]
 name = "Plain Language (throughline source)"
-format_version = 3
+format_version = 4
 
 # A throughline *source*: a standalone graph a consuming project composes via
 # throughline-compose, importing it under a namespace (e.g. `plain`) and referencing

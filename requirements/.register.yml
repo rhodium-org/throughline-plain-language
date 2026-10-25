@@ -1,3 +1,4 @@
 prefix: SR
 digits: 4
 title: Plain-language rules
+type: system_requirement

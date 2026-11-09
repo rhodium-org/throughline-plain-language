@@ -1,11 +1,12 @@
 uid: SR-0019
 type: system_requirement
-status: approved
-title: 'Avoid double negatives and exceptions to exceptions'
-text: 'Avoid double negatives and exceptions to exceptions.'
+status: proposed
+title: Avoid double negatives and exceptions to exceptions
+text: Avoid double negatives and exceptions to exceptions.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0005

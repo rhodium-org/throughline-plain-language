@@ -1,11 +1,12 @@
 uid: SR-0026
 type: system_requirement
-status: approved
-title: 'Use a bulleted or numbered list for a series of items or steps'
-text: 'Use a bulleted or numbered list for a series of items or steps.'
+status: proposed
+title: Use a bulleted or numbered list for a series of items or steps
+text: Use a bulleted or numbered list for a series of items or steps.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 2 (Findable)'
+  source_ref: ISO 24495-1:2023 — Principle 2 (Findable)
   principle: UR-0007

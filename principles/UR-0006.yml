@@ -1,10 +1,11 @@
 uid: UR-0006
 type: user_requirement
-status: approved
-title: 'Be concise'
-text: 'Cut every word that carries no meaning.'
+status: proposed
+title: Be concise
+text: Cut every word that carries no meaning.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)

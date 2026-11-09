@@ -1,10 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
-title: 'Organise so the reader finds what matters first'
-text: 'Structure the content around the reader''s needs, leading with what matters most.'
+status: proposed
+title: Organise so the reader finds what matters first
+text: Structure the content around the reader's needs, leading with what matters
+  most.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 2 (Findable)'
+  source_ref: ISO 24495-1:2023 — Principle 2 (Findable)

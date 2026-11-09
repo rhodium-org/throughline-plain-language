@@ -1,11 +1,14 @@
 uid: SR-0009
 type: system_requirement
-status: approved
-title: 'Spell out an abbreviation at first use, with the short form in brackets after it'
-text: 'Spell out an abbreviation at first use, with the short form in brackets after it.'
+status: proposed
+title: Spell out an abbreviation at first use, with the short form in brackets after
+  it
+text: Spell out an abbreviation at first use, with the short form in brackets after
+  it.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0003

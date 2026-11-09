@@ -1,10 +1,12 @@
 uid: UR-0001
 type: user_requirement
-status: approved
-title: 'Write for your reader'
-text: 'Decide who the reader is and what they need before drafting, then write for them.'
+status: proposed
+title: Write for your reader
+text: Decide who the reader is and what they need before drafting, then write for
+  them.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 1 (Relevant)'
+  source_ref: ISO 24495-1:2023 — Principle 1 (Relevant)

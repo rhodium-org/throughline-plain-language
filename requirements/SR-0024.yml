@@ -1,11 +1,12 @@
 uid: SR-0024
 type: system_requirement
-status: approved
-title: 'Replace a wordy phrase with one word'
-text: 'Replace a wordy phrase with one word — "because", not "due to the fact that".'
+status: proposed
+title: Replace a wordy phrase with one word
+text: Replace a wordy phrase with one word — "because", not "due to the fact that".
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0006

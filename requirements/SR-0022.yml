@@ -1,11 +1,12 @@
 uid: SR-0022
 type: system_requirement
-status: approved
-title: 'Remove redundant pairs such as "each and every"'
-text: 'Remove redundant pairs such as "each and every".'
+status: proposed
+title: Remove redundant pairs such as "each and every"
+text: Remove redundant pairs such as "each and every".
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0006

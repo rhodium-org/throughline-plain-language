@@ -1,11 +1,12 @@
 uid: SR-0011
 type: system_requirement
-status: approved
-title: 'Use the same word for the same thing throughout'
-text: 'Use the same word for the same thing throughout; do not vary it for elegance.'
+status: proposed
+title: Use the same word for the same thing throughout
+text: Use the same word for the same thing throughout; do not vary it for elegance.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0003

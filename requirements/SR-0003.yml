@@ -1,11 +1,12 @@
 uid: SR-0003
 type: system_requirement
-status: approved
-title: 'Address the reader directly as "you"'
-text: 'Address the reader directly as "you"; refer to your organisation as "we".'
+status: proposed
+title: Address the reader directly as "you"
+text: Address the reader directly as "you"; refer to your organisation as "we".
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 1 (Relevant)'
+  source_ref: ISO 24495-1:2023 — Principle 1 (Relevant)
   principle: UR-0001

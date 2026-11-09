@@ -1,11 +1,12 @@
 uid: SR-0001
 type: system_requirement
-status: approved
-title: 'Identify the primary audience and their reading context before you start drafting'
-text: 'Identify the primary audience and their reading context before you start drafting.'
+status: proposed
+title: Identify the primary audience and their reading context before you start drafting
+text: Identify the primary audience and their reading context before you start drafting.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 1 (Relevant)'
+  source_ref: ISO 24495-1:2023 — Principle 1 (Relevant)
   principle: UR-0001

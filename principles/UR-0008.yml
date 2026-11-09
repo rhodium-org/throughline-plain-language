@@ -1,10 +1,11 @@
 uid: UR-0008
 type: user_requirement
-status: approved
-title: 'Test that real readers understand'
-text: 'Treat comprehension as measurable and verify it.'
+status: proposed
+title: Test that real readers understand
+text: Treat comprehension as measurable and verify it.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 4 (Usable)'
+  source_ref: ISO 24495-1:2023 — Principle 4 (Usable)

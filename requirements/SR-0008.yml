@@ -1,11 +1,12 @@
 uid: SR-0008
 type: system_requirement
-status: approved
-title: 'Define any unavoidable technical term at its first use'
-text: 'Define any unavoidable technical term at its first use.'
+status: proposed
+title: Define any unavoidable technical term at its first use
+text: Define any unavoidable technical term at its first use.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 3 (Understandable)'
+  source_ref: ISO 24495-1:2023 — Principle 3 (Understandable)
   principle: UR-0003

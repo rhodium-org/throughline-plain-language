@@ -1,11 +1,14 @@
 uid: SR-0030
 type: system_requirement
-status: approved
-title: 'Test drafts with people from the target audience and revise on what confuses them'
-text: 'Test drafts with people from the target audience and revise on what confuses them.'
+status: proposed
+title: Test drafts with people from the target audience and revise on what confuses
+  them
+text: Test drafts with people from the target audience and revise on what confuses
+  them.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: 'ISO 24495-1:2023 — Principle 4 (Usable)'
+  source_ref: ISO 24495-1:2023 — Principle 4 (Usable)
   principle: UR-0008
